@@ -1,0 +1,50 @@
+.tooltiptext {
+	z-index: 999;
+	font: 12px sans-serif;
+	min-width: 120px;
+	background-color: #f6f6f6;
+	color: #000000;
+	text-align: center;
+	border-radius: 6px;
+	border: 1px solid #aaaaaa;
+	padding: 5px 5px;
+	position: absolute;
+	top: -5px;
+	right: 110%;
+	opacity: 1;
+}
+
+.tooltiptext::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent transparent #aaaaaa;
+}
+
+#showmore_btn {
+	background-color: #f6f6f6;
+	color: #636363;
+	height: 20px;
+	border: 1px solid #aaaaaa;
+	font: 10px sans-serif;
+	border-radius: 2px;
+	width: 100%;
+}
+
+#showmore_btn:active {
+	background-color: #ffffff;
+	border: 1px solid #aaaaaa;
+}
+
+#showmore_btn:focus {
+	border: 1px solid #aaaaaa;
+	outline: none;
+}
+
+.mouseControls {
+	font: 11px sans-serif;
+}
