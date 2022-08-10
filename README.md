@@ -177,4 +177,4 @@ Project Link: [https://github.com/kylerifqi/pathfinderUI](https://github.com/kyl
 [Quicksettings]: https://img.shields.io/badge/quicksettings%20(modified)-e86819?style=for-the-badge
 [qs-url]: https://github.com/bit101/quicksettings
 [Webpack]: https://img.shields.io/badge/webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=000
-[wp-url]: https://github.com/bit101/quicksettings
+[wp-url]: https://webpack.js.org/
